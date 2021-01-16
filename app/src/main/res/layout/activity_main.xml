@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4dd4f2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/secondTextTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/secondTextTitleText"
+                android:textColor="#FD000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/secondText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:fontFamily="sans-serif-black"
+                android:text="0"
+                android:textColor="#FD000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/totalscoreTextTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/totalscoreTextTitleText"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/totalscoreText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:fontFamily="sans-serif-black"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textNumber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="@string/textNumberText"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tapButton"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/background_button_circle"
+                android:fontFamily="sans-serif-black"
+                android:text="1"
+                android:textColor="#eee"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/tapButton2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/background_button_circle"
+                android:fontFamily="sans-serif-black"
+                android:text="2"
+                android:textColor="#eee"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/tapButton3"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/background_button_circle"
+                android:fontFamily="sans-serif-black"
+                android:text="3"
+                android:textColor="#eee"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tapButton4"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_weight="0"
+                android:background="@drawable/background_button_circle"
+                android:fontFamily="sans-serif-black"
+                android:text="4"
+                android:textColor="#eee"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/tapButton5"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/background_button_circle"
+                android:fontFamily="sans-serif-black"
+                android:text="5"
+                android:textColor="#eee"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/tapButton6"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/background_button_circle"
+                android:fontFamily="sans-serif-black"
+                android:text="6"
+                android:textColor="#eee"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/tapButton7"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/background_button_circle"
+                android:fontFamily="sans-serif-black"
+                android:text="7"
+                android:textColor="#eee"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/tapButton8"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/background_button_circle"
+                android:fontFamily="sans-serif-black"
+                android:text="8"
+                android:textColor="#eee"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/tapButton9"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/background_button_circle"
+                android:fontFamily="sans-serif-black"
+                android:text="9"
+                android:textColor="#eee"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/tapButton0"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="96dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="96dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_button_rectangle"
+            android:fontFamily="sans-serif-black"
+            android:text="0"
+            android:textColor="#eee"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="96dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="96dp"
+            android:background="@drawable/background_button_rectangle"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/startButtonText"
+            android:textColor="#eee"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

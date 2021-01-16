@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">タップナンバー</string>
+
+    <string name="textNumberText">スタートボタンを押してね！</string>
+    <string name="startButtonText">スタート</string>
+    <string name="totalscoreTextTitleText">スコア</string>
+    <string name="secondTextTitleText">残り時間</string>
+</resources>

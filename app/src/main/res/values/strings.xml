@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tap number</string>
+
+    <string name="textNumberText">Push Start Button!</string>
+    <string name="startButtonText">Start</string>
+    <string name="totalscoreTextTitleText">score</string>
+    <string name="secondTextTitleText">time</string>
+</resources>
